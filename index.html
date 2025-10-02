@@ -11,7 +11,29 @@
     </script>
 </head>
 <body>
-    <main>
+    <main class="bg-slate-800">
+        <section class="max-w-md min-h-screen mx-auto bg-slate-200">
+            <header>
+                <nav class="">
+                    <!-- img container -->
+                     <div class="relative flex flex-col justify-center">
+                       <img src="assets/bg.png" alt="img" class="mx-auto block mt-12">
+                       <img src="assets/Group.png" alt="img" class="mx-auto block relative top-[-270px]">
+                </nav>
+            </header>
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto relative top-[-100px]">
+                        <form class="card-body">
+                            <fieldset class="fieldset">
+                            <label class="label">Account Number</label>
+                            <input type="text" id="account" class="input pl-4 bg-gray-100 border-none rounded-3xl" placeholder="Account NO:" value="01312345634" required/>
+                            <label class="label">PIN</label>
+                            <input type="pin" id="pin" class="input pl-4 bg-gray-100 border-none rounded-3xl" value="0912" required/>
+                            <div><a class="link link-hover">Forgot password?</a></div>
+                            <button id="login-btn" class="btn btn-neutral mt-4 bg-blue-600 border-none rounded-3xl">Login</button>
+                            </fieldset>
+                        </form>
+                    </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,10 @@
+
+.hover:hover {
+    background-color: skyblue;
+    border-color: rgb(46, 46, 239);
+    color:white;
+    transform: scale(1.04);
+}
+.hover:active {
+    transform: scale(1);
+}
